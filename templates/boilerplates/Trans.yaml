@@ -1,0 +1,27 @@
+!!python/object:paper_structure.Tsl
+meta: !!python/object/new:paper_structure.Meta
+    dictitems:
+        filename: Trans
+        author: 
+        date: 1900-01-01
+        journal: 
+        title: 
+        url: 
+        maker: 
+        test: NEEP-II-T
+        type: ''
+        words: 0
+        translator: 
+        time: 1900-01-01
+        reviewer: ''
+        score: ''
+
+article:
+- 
+- 
+- 
+
+translation:
+- 
+- 
+- 

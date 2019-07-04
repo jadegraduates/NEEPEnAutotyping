@@ -1,0 +1,88 @@
+!!python/object:paper_structure.Writing
+meta: !!python/object/new:paper_structure.Meta
+    dictitems:
+        filename: Writing
+        maker: 
+        test: NEEP-II-W
+        1-type: 
+        2-type: 
+        time: 1900-01-01
+
+l_direction:
+- Suppose you ...
+- 1) , and
+- 2) 
+- You should write about 100 words on the ANSWER SHEET.
+- Do not sign your own name at the end of the letter. Use“Li Ming”instead.
+- Do not write your address.(10 points)
+
+l_explanation:
+- (1) 确定应用文类型
+- ''
+- 题目情景为...
+- ''
+- (2) 确定文章格式
+- ''
+- 收信人为...，称呼..., 落款...。
+- ''
+- (3) 确定文章目的、内容
+- ''
+- 第一段...；
+- ''
+- 第二段...；
+- ''
+- 第三段...。
+
+l_model:
+- <align:no-indent> Dear ..,
+- 
+- 
+- 
+- <align:right> Yours sincerely,
+- <align:right> Li Ming
+
+l_translation:
+- <align:no-indent> 亲爱的...，
+- 
+- 
+- 
+- <align:right> 此致，
+- <align:right> 李明
+
+e_direction:
+- Write an essay based on the following chart. In your writing, you should'
+- 1) interpret the chart, and
+- 2) give your comments.
+- You should write about 150 words on the ANSWER SHEET. (15 points)
+
+e_explanation:
+- (1) 分析图表、确定主题
+- ''
+- 这是一幅线状图，该图反映了...。由图可知，...。
+- ''
+- (2) 选择主要数据
+- 该图共有两组数据，...。
+- ''
+- (3) 找出 2 至 3 点原因
+- ''
+- 原因 1：...。
+- ''
+- 原因 2：...。
+- ''
+- (4) 作出总结，观点、预测或建议
+- ''
+- 观点：...。
+- ''
+- 预测：...。
+- ''
+- 建议：...。
+
+e_model:
+- 
+- 
+- 
+
+e_translation:
+- 
+- 
+- 

@@ -1,0 +1,74 @@
+!!python/object:paper_structure.PartB
+meta: !!python/object/new:paper_structure.Meta
+    dictitems:
+        filename: PartB2
+        author: 
+        date: 1900-01-01
+        journal: 
+        title: 
+        url: 
+        maker: ''
+        test: NEEP-II-B2
+        type: ''
+        words: 0
+        translator: ''
+        time: 1900-01-01
+        reviewer: ''
+        score: ''
+article:
+- 
+- '## Title 1'
+- 
+- '## Title 2'
+- 
+-
+- 
+
+translation:
+- 
+- '## 标题 1'
+- 
+- '## 标题 2'
+- 
+-
+- 
+
+characters:
+- ''
+- ''
+- ''
+- ''
+- ''
+opinions:
+-   - 
+    - 
+-   - 
+    - 
+-   - 
+    - 
+-   - 
+    - 
+-   - 
+    - 
+-   - 
+    - 
+-   - 
+    - 
+
+intpts:
+-   - 
+    - 
+-   - 
+    - 
+-   - 
+    - 
+-   - 
+    - 
+-   - 
+    - 
+
+
+no_intf: 
+- ''
+- ''
+opinions_order: DEGACBF

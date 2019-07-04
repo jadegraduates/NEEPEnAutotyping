@@ -1,0 +1,471 @@
+!!python/object:paper_structure.Closing
+meta: !!python/object/new:paper_structure.Meta
+    dictitems:
+        filename: Closing
+        author: 
+        date: 1900-01-01
+        journal: 
+        title: 
+        url: 
+        maker: 
+        test: NEEP-II-C
+        type: ''
+        words: 0
+        translator: ''
+        time: 1900-01-01
+        reviewer: ''
+        score: ''
+        
+article:
+- 
+- 
+- 
+- 
+
+translation:
+- 
+- 
+- 
+- 
+
+Q:
+- !!python/object:paper_structure.QC
+    idx: 1
+    type: 
+    location: 
+    A:
+    - mocked
+    - 伪造
+    B:
+    - joked
+    - 玩笑
+    C:
+    - dubbed
+    - 戏称
+    D:
+    - murmured
+    - 咕哝
+    answer: C
+    exp: 这里写解析。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 2
+    type: 
+    location: 
+    A:
+    - standing
+    - ''
+    B:
+    - sedentary
+    - ''
+    C:
+    - lying
+    - ''
+    D:
+    - crouching
+    - ''
+    answer: B
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 3
+    type: 
+    location: 
+    A:
+    - with
+    - ''
+    B:
+    - for
+    - ''
+    C:
+    - in
+    - ''
+    D:
+    - to
+    - ''
+    answer: D
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 4
+    type: 
+    location: 
+    A:
+    - shortage
+    - ''
+    B:
+    - loss
+    - ''
+    C:
+    - boost
+    - ''
+    D:
+    - gain
+    - ''
+    answer: B
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 5
+    type: 
+    location: 
+    A:
+    - looked
+    - ''
+    B:
+    - examined
+    - ''
+    C:
+    - studied
+    - ''
+    D:
+    - experimented
+    - ''
+    answer: A
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 6
+    type: 
+    location: 
+    A:
+    - heart
+    - ''
+    B:
+    - head
+    - ''
+    C:
+    - brain
+    - ''
+    D:
+    - feet
+    - ''
+    answer: 
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 7
+    type: 
+    location: 
+    A:
+    - While
+    - ''
+    B:
+    - However
+    - ''
+    C:
+    - Since
+    - ''
+    D:
+    - As
+    - ''
+    answer: A
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 8
+    type: 
+    location: 
+    A:
+    - benign
+    - ''
+    B:
+    - venture
+    - ''
+    C:
+    - risk
+    - ''
+    D:
+    - chance
+    - ''
+    answer: 
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 9
+    type: 
+    location: 
+    A:
+    - table
+    - ''
+    B:
+    - bench
+    - ''
+    C:
+    - sofa
+    - ''
+    D:
+    - chair
+    - ''
+    answer: D
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 10
+    type: 
+    location: 
+    A:
+    - clear
+    - ''
+    B:
+    - synthesized
+    - ''
+    C:
+    - simplified
+    - ''
+    D:
+    - complicated
+    - ''
+    answer: D
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 11
+    type: 
+    location: 
+    A:
+    - again
+    - ''
+    B:
+    - neither
+    - ''
+    C:
+    - either
+    - ''
+    D:
+    - also
+    - ''
+    answer: C
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 12
+    type: 
+    location: 
+    A:
+    - lead
+    - ''
+    B:
+    - cause
+    - ''
+    C:
+    - link
+    - ''
+    D:
+    - produce
+    - ''
+    answer: A
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 13
+    type: 
+    location: 
+    A:
+    - great
+    - ''
+    B:
+    - excellent
+    - ''
+    C:
+    - bad
+    - ''
+    D:
+    - worse
+    - ''
+    answer: A
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 14
+    type: 
+    location: 
+    A:
+    - scheme
+    - ''
+    B:
+    - solution
+    - ''
+    C:
+    - way
+    - ''
+    D:
+    - shoes
+    - ''
+    answer: B
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 15
+    type: 
+    location: 
+    A:
+    - that
+    - ''
+    B:
+    - how
+    - ''
+    C:
+    - what
+    - ''
+    D:
+    - why
+    - ''
+    answer: C
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 16
+    type: 
+    location: 
+    A:
+    - happy
+    - ''
+    B:
+    - satisfied
+    - ''
+    C:
+    - willing
+    - ''
+    D:
+    - suited
+    - ''
+    answer: D
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 17
+    type: 
+    location: 
+    A:
+    - counsel
+    - ''
+    B:
+    - consult
+    - ''
+    C:
+    - demand
+    - ''
+    D:
+    - console
+    - ''
+    answer: 
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 18
+    type: 
+    location: 
+    A:
+    - What
+    - ''
+    B:
+    - When
+    - ''
+    C:
+    - Which
+    - ''
+    D:
+    - That
+    - ''
+    answer: D
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 19
+    type: 
+    location: 
+    A:
+    - notice
+    - ''
+    B:
+    - notion
+    - ''
+    C:
+    - notification
+    - ''
+    D:
+    - novel
+    - ''
+    answer: B
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 20
+    type: 
+    location: 
+    A:
+    - sits
+    - ''
+    B:
+    - stands
+    - ''
+    C:
+    - runs
+    - ''
+    D:
+    - walks
+    - ''
+    answer: A
+    exp: 
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''

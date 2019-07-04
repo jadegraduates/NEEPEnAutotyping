@@ -1,0 +1,156 @@
+!!python/object:paper_structure.PartA
+meta: !!python/object/new:paper_structure.Meta
+    dictitems:
+        filename: Text1
+        author: ''
+        date: 1900-01-01
+        journal: 
+        title: 
+        url: 
+        maker: 
+        test: NEEP-II-A
+        type: 
+        words: 0
+        translator: 
+        time: 1900-01-01
+        reviewer: ''
+        score: ''
+
+article:
+- 
+- 
+- 
+- 
+
+translation:
+- 
+- 
+- 
+- 
+
+Q:
+- !!python/object:paper_structure.QA
+    idx: 1
+    type: info
+    location: P1
+    question:
+    -  ______.
+    -  ______。
+    - 
+    A:
+    - 
+    - 
+    - 
+    B:
+    - 
+    - 
+    - 
+    C:
+    - 
+    - 
+    - 
+    D:
+    - 
+    - 
+    - 
+    answer: 
+- !!python/object:paper_structure.QA
+    idx: 2
+    type: info
+    location: P1
+    question:
+    -  ______.
+    -  ______。
+    - 
+    A:
+    - 
+    - 
+    - 
+    B:
+    - 
+    - 
+    - 
+    C:
+    - 
+    - 
+    - 
+    D:
+    - 
+    - 
+    - 
+    answer: 
+- !!python/object:paper_structure.QA
+    idx: 3
+    type: info
+    location: P1
+    question:
+    -  ______.
+    -  ______。
+    - 
+    A:
+    - 
+    - 
+    - 
+    B:
+    - 
+    - 
+    - 
+    C:
+    - 
+    - 
+    - 
+    D:
+    - 
+    - 
+    - 
+    answer: 
+- !!python/object:paper_structure.QA
+    idx: 4
+    type: info
+    location: P1
+    question:
+    -  ______.
+    -  ______。
+    - 
+    A:
+    - 
+    - 
+    - 
+    B:
+    - 
+    - 
+    - 
+    C:
+    - 
+    - 
+    - 
+    D:
+    - 
+    - 
+    - 
+    answer: 
+- !!python/object:paper_structure.QA
+    idx: 5
+    type: info
+    location: P1
+    question:
+    -  ______.
+    -  ______。
+    - 
+    A:
+    - 
+    - 
+    - 
+    B:
+    - 
+    - 
+    - 
+    C:
+    - 
+    - 
+    - 
+    D:
+    - 
+    - 
+    - 
+    answer: 

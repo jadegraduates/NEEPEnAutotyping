@@ -1,0 +1,88 @@
+!!python/object:paper_structure.Writing
+meta: !!python/object/new:paper_structure.Meta
+    dictitems:
+        filename: 1018-Writing-B-M0
+        maker: Guo Zongyao, Zhang Shichao
+        test: NEEP-II-W
+        1-type: Gra, Inv
+        2-type: Pie
+        time: '2017-12-23'
+
+l_direction:
+- Suppose you have found something wrong with the food that you ordered from a restaurant. Write an email to the owner of this restaurant to
+- 1) make a complaint, and
+- 2) demand a prompt solution.
+- You should write about 100 words on the ANSWER SHEET.
+- Do not sign your own name at the end of the letter. Use“Li Ming”instead.
+- Do not write your address.(10 points)
+
+l_explanation:
+- (1) 确定应用文类型
+- ''
+- 题目情景为你发现你从餐厅订的外卖有问题，要给餐厅老板写一个投诉信，并要求对方及时解决，因此该信件类型为投诉信。
+- ''
+- (2) 确定文章格式
+- ''
+- 收信人为餐厅老板，称呼可以是 Dear Sir or Madam, 落款为 Yours sincerely, Li Ming 即可。
+- ''
+- (3) 确定文章目的、内容
+- ''
+- 第一段交代写信目的为投诉食物有问题；
+- ''
+- 第二段要求对方给出及时的解决办法；
+- ''
+- 第三段期待早日回复。
+
+l_model:
+- <align:no-indent> Dear Sir or Madam,
+- I am writing this email for the purpose of expressing my complaint against the problem of the food that I ordered from your restaurant.
+- When I received the food, I found there were neither chopsticks nor a spoon. In addition, to my great disappointment, the food is cold and undercooked. I communicated with you about my problem immediately, but until now no satisfactory solution has been offered. I have been pleased with your services for years, but now I feel very disappointed.
+- I hope you can properly deal with my problem and provide an effective solution as soon as possible. I would be grateful if this matter would have your immediate attention.
+- <align:right> Yours sincerely,
+- <align:right> Li Ming
+
+l_translation:
+- <align:no-indent> 亲爱的先生或女士，
+- 从你们餐厅购买的外卖有问题，特致邮件投诉。
+- 当我收到外卖的时候，我发现里面没有筷子和勺子。此外，让我更加失望的是，食物不仅凉了而且都没熟。我立即告诉了你们这个问题，但直到现在也没有满意的解决方法。多年来，我对你们的服务一直都挺满意的，但是现在我非常失望。
+- 我希望你们能够合理解决我的问题并且尽快给一个有效的解决措施。如果这件事能得到你们及时的注意，我将不胜感激。
+- <align:right> 此致，
+- <align:right> 李明
+
+e_direction:
+- Write an essay based on the following chart. In your writing, you should
+- 1) interpret the chart, and
+- 2) give your comments.
+- You should write about 150 words on the ANSWER SHEET. (15 points)
+
+e_explanation:
+- (1) 分析图表、确定主题
+- ''
+- 这是一幅线状图，该图反映了从 2013 年到 2016 年地市级公共图书馆人数和外借书数量的变化。由图可知，在 2013 年到 2016 年间，不管是流通人数还是外借数量都呈上升趋势。
+- ''
+- (2) 选择主要数据
+- 该图共有两组数据，即公共图书馆流通人数和外借数量。公共图书馆流通人数为 2013 年 1.21 亿人次，2016 年 2.23 亿人次；外借数量为 2013 年 0.98 亿册，2016 年 1.82 亿册。
+- ''
+- (3) 找出 2 至 3 点原因
+- ''
+- 原因 1：全社会对文化事业有了更高要求、更多期待。
+- ''
+- 原因 2：政府加强了公共文化服务体系的建设。
+- ''
+- (4) 作出总结，观点、预测或建议
+- ''
+- 观点：这样的趋势对个人和社会都有好处。
+- ''
+- 预测：公共图书馆是公共文化服务体系的重要组成部分，还会越来越受重视。
+- ''
+- 建议：应该大力发展地市级公共图书馆。
+
+e_model:
+- As is shown above, dramatic changes have taken place in the numbers of municipal public library visitors and lending books from 2013 to 2016. Specifically, we find the number of municipal public library readers increased from 121 million to 223 million while that of lending books experienced an conspicuous rise from 98 million to 182 million during the same period.
+- It is not difficult to come up with some possible factors accounting for this trend. To start, over the past decades people’s living standard and ideology have made substantial progress, and they have more time and money to spend on their interests and hobbies, such as going to the libraries and concerts. There are greater demands towards cultural industry by the whole society. In addition, government has strengthened the construction of public cultural service system. Also, a lot of policies are issued to protect and promote the cultural industry.
+- From what we have been discussed above, we may draw the conclusion that this trend is beneficial both to individuals and to our society. Being the primary carrier of the public cultural service system, regional public libraries need to be vigorously promoted.
+
+e_translation:
+- 如上图所示，2013 年至2016 年间地市级公共图书馆流通人数和外借书数量发生了巨大变化。具体来说，我们发现地市级公共图书馆的流通人数从 1.21 亿增加到了2.23 亿，而同时外借书的数量也从 0.98 亿猛增到 1.82 亿。
+- 不难发现这一趋势背后的原因。首先，近十几年来人民的生活水平和思想观念进步不少，他们有更多的时间和金钱用在自己的兴趣爱好上，比如去图书馆和听音乐会。其次，政府加强了社会文化服务体系的建设。也出台了许多保护并促进文化产业发展的相关政策。
+- 综上所述，我们能得出结论，这种趋势对个人和社会都有好处。地市级公共图书馆作为公共社会文化体系的重要载体也需要得到大力发展。

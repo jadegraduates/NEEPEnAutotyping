@@ -1,0 +1,70 @@
+!!python/object:paper_structure.PartB
+meta: !!python/object/new:paper_structure.Meta
+    dictitems:
+        filename: PartB1
+        author: 
+        date: 1900-01-01
+        journal: 
+        title: 
+        url: 
+        maker: ''
+        test: NEEP-II-B1
+        type: ''
+        words: 0
+        translator: 
+        time: 1900-01-01
+        reviewer: ''
+        score: ''
+article:
+- 
+- 
+- 
+- 
+- 
+
+article_st: null
+translation:
+- 
+- 
+- 
+- 
+- 
+
+translation_st: null
+characters:
+- 
+- 
+- 
+- 
+- 
+opinions:
+-   - 
+    - 
+-   - 
+    - 
+-   - 
+    - 
+-   - 
+    - 
+-   - 
+    - 
+-   - 
+    - 
+-   - 
+    - 
+intpts:
+-   - 
+    - 
+-   - 
+    - 
+-   - 
+    - 
+-   - 
+    - 
+-   - 
+    - 
+
+no_intf:
+- 
+- 
+opinions_order: EAGBFCD

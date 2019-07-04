@@ -1,0 +1,79 @@
+!!python/object:paper_structure.PartB
+meta: !!python/object/new:paper_structure.Meta
+    dictitems:
+        filename: PartB1-1-M1
+        author: Simon Montlake
+        date: '2016-06-29'
+        journal: The Christian Science Monitor
+        title: The surprising truth about American manufacturing
+        url: https://www.csmonitor.com/USA/2016/0629/The-surprising-truth-about-American-manufacturing
+        maker: ''
+        test: NEEP-II-B1
+        type: ''
+        words: 548
+        translator: ''
+        time: 2017-12-7
+        reviewer: ''
+        score: ''
+article:
+- The decline in American manufacturing is a common refrain, particularly from Donald Trump. /2/ “We don’t make anything anymore.” he told Fox News, while defending his own made-in-Mexico clothing line.
+- Without question, manufacturing has taken a significant hit during recent decades, and further trade deals raise questions about whether new shocks could hit manufacturing.
+- But there is also a different way to look at the data.
+- 'Across the country, factory owners are now grappling with a new challenge: Instead of having too many workers, they may end up with too few. /2/ Despite trade competition and outsourcing. /3/ American manufacturing still needs to replace tens of thousands of retiring boomers every year. /4/  Millennials may not be that interested in taking their places. /5/ Other industries are recruiting them with similar or better pay.'
+- For factory owners, it all adds up to stiff competition for workers - and upward pressure on wages. /2/ “ They’re harder to find and they have job offers.” says Jay Dunwell, president of Wolverine Coil Spring, a family-owned firm. /3/ “They may be coming [into the workforce], but they’ve been plucked by other industries that are also doing as well as manufacturing.” Mr Dunwell has begun bringing high school juniors to the factory so they can get exposed to its culture.
+- At RoMan Manufacturing, a maker of electrical transformers and welding equipment that his father cofounded in 1980, Robert Roth keeps a close eye on the age of his nearly 200 workers. /2/ Five are retiring this year. /3/ Mr Roth has three community-college students enrooled in a work-placement program, with a starting wage of $17 after two years.
+- At a worktable inside the transformer plant, young Jason Stenquist looks flustered by the copper coils he’s trying to assemble and the arrival of two visitors. /2/ It’s his first week on the job. /3/ Asked about his choice of career, he says at high school he considered medical school before switching to electrical engineering. /4/ “I love working with tools. I loving creating.” he says.
+- 'But to win over these young workers, manufacturing have to clear another major hurdle: parents, who lived through the worst US economic downtown since the Great Despreesion, telling them to avoid the factory. /2/ Millennials “remember their father and mother both were laid off. They blame it on the manufacturing recessions.” says Birgit Klohs, chief executive of The Right Place, a business development agency western Michigan.'
+- 'There concerns aren’t misplaced: Employment in manufacturing has fallen from 17 million in 1970 to 12 million in 2015. /2/ When the recovery began, worker strangers first appeared in the high-skilled trades. /3/ Now shortages are appearing at the mid-skilled levels.'
+- “The gap is between the jobs that take on skill and those that require a lot of skills.” says rob Spohr, a business professor at Montcalm Community College. /2/ “There’re enough people to fill the jobs at McDonalds and other places where you don’t need to have much skill. It’s that gap in between, and that’s where the problem is.”
+- 'Julie Parks of Grand Rapids Community College points to another key to another key to luring Millennials into manufacturing: a worker/life balance. /2/ While their parents were content to work long hours, young people value flexibility. /3/ “ Overtime is not attractive to this generation. They really want to live their lives.” she says.'
+article_st: null
+translation:
+- 译文
+- 译文
+- 译文
+- 译文
+- 译文
+- 译文
+- 译文
+- 译文
+- 译文
+- 译文
+- 译文
+translation_st: null
+characters:
+- Jay Dunwell
+- Jason Stenquist
+- Birgit Klohs
+- Rob Spohs
+- Julie Parks
+opinions:
+-   - says that for factory owners, workers are harder to find because of stiff competition.
+    - 称对于工厂老板而言，因竞争激烈工人愈加难寻
+-   - says that he switched to electrical engineering because he loves working with tools.
+    - 说他改修电气工程是因为他喜欢与工具打交道
+-   - says that the manufacturing recession is to blame for the lay off of the young people’s parents.
+    - 称年轻人的父母遭解雇归咎于制造业的衰退
+-   - points out that there are enough people to fill the jobs that don’t need much skill.
+    - 指出有足够多的人来填补无需太多技能的工作
+-   - points out that a worker/life balance can attract young people into manufacturing.
+    - 指出工作-生活平衡能吸引年轻人进入制造业
+-   - points out that the US doesn’t manufacture anything anymore.
+    - 指出美国不再制造任何东西了
+-   - believe that it is important to keep a close eye on the age of his workers
+    - 认为密切关注员工年龄很重要
+intpts:
+-   - 根据“Jay Dunwell”定位至原文第五段第一句，即“For factory owners, it all adds up to stiff competition for workers - and upward pressure on wages. “ They’re harder to find and they have job offers.” says Jay Dunwell”画出关键词：For factory owners, They’re harder to find, stiff competition.将这些关键词逐一和七个选项中的关键词相匹配可知：选项E中的“for factory owners”，“are harder to find”，“stiff competition”均是原文的原词照搬，因此正确。
+    - ''
+-   - 根据“Jason Stenquist”定位至原文第七段第三四五句，即“ Asked about his choice of career, he says at high school he considered medical school before switching to electrical engineering. “I love working with tools. I loving creating.” he says.”画出关键词：switching to electrical engineering, love working with tools.将这些关键词逐一和七个选项中的关键词相匹配可知：选项A中的：“switching to electrical engineering”，“love working with tools”，均是原文的原词照搬，因此正确。
+    - ''
+-   - 根据“Birgit Klohs”定位至原文第八段第二句，即“Millennials “remember their father and mother both were laid off. They blame it on the manufacturing recessions.” says Birgit Klohs,.”画出关键句：their father and mother both were laid off，They blame it on the manufacturing recessions。选项中的“the lay off of the young people’s parents”替换原文“their father and mother both were laid off”，选项中的“the manufacturing recession is to blame”替换原文“They blame it on the manufacturing recessions”，因此正确。
+    - ''
+-   - 根据“Rob Spohs”定位至原文第十段第二句，即“ “There’re enough people to fill the jobs at McDonalds and other places where you don’t need to have much skill.”画出关键词：enough people to fill the jobs，you don’t need to have much skill。将这些关键词逐一和七个选项中的关键词相匹配可知：选项B中的：“enough people to fill the jobs”是原文的原词照搬，“jobs that don’t need much skill”是原文“you don’t need to have much skill”的同意说法，因此正确。
+    - ''
+-   - '根据“Julie Parks”定位至原文第十一段第一句，即“Julie Parks of Grand Rapids Community College points to another key to another key to luring Millennials into manufacturing: a worker/life balance.”画出关键词： a worker/life balance，manufacturing，luring。将这些关键词逐一和七个选项中的关键词相匹配可知：选项F中的：“a worker/life balance”，“manufacturing”是原文的原词照搬，选项中的“attract”为原文“luring”的同意替换，因此正确。'
+    - ''
+no_intf:
+- 选项C：points out that the US doesn’t manufacture anything anymore.出自原文第一段第二句：“We don’t make anything anymore.”这是Donald Trump的观点，与选项中的五个人物无关，因此不能作为正确答案。
+- 选项D：believe that it is important to keep a close eye on the age of his workers。出自原文第六段第一句：Robert Roth keeps a close eye on the age of his nearly 200 workers.这显然是Robert Roth的观点，与选项中的五个人物无关，因此不能作为正确答案。
+opinions_order: EAGBFCD

@@ -1,0 +1,514 @@
+!!python/object:paper_structure.Closing
+meta: !!python/object/new:paper_structure.Meta
+    dictitems:
+        filename: 03-Closing-M0
+        author: Jamie Ducharme
+        date: 2018-4-13
+        journal: Fortune
+        title: Sitting Is Bad for Your Health. Standing May Not Be Great Either. So What Should You Do at Work?
+        url: http://www.fortunechina.com/life/c/2018-04/22/content_305678.htm
+        maker: Zhang Shichao
+        test: NEEP-II-C
+        type: ''
+        words: '379'
+        translator: ''
+        time: 2018-9-1
+        reviewer: ''
+        score: ''
+article:
+- Sitting has been __1__ “the new smoking” due to the ever-accumulating body of research linking our __2__ lifestyles to everything from poor metabolic health to an increased risk of heart disease. And on Thursday, a small new study published in the journal PLOS ONE added __3__ those consequences, suggesting that too much sitting may over time contribute to memory __4__ and cognitive decline.
+- The study __5__ at 35 adults between the ages of 45 and 75. Researchers took brain scans to measure the thickness of each person’s medial temporal lobe (MTL) — a part of the __6__ crucial to memory — and quizzed each person about how much time per day they spend sitting and moving around. __7__ it wasn’t possible to identify a clear cause-and-effect relationship, the researchers did find that increased sedentary time was associated with decreased MTL volume, suggesting that excessive sitting may be a __8__ factor for cognitive decline.
+- Based on findings like those, you couldn’t be blamed for swearing off your desk __9__. But that decision grows more __10__ when you consider studies like one published in February in the journal Ergonomics, which says long standing on your feet may not be so healthy, __11__. Standing for a two-hour chunk during the work day, that study found, may __12__ to physical discomfort all over the body, and make it harder to stay focused and energized.
+- So if it’s not __13__ to sit or stand all day, what should you do at the office? Dr. Richard Isaacson, director of the Alzheimer’s Prevention Clinic at NewYork-Presbyterian/Weill Cornell Medical Center, says there’s no one-size-fits-all __14__.
+- “An individual person needs to make a decision based on __15__ is best for them,” Isaacson says, adding factors including physical fitness, orthopedic issues, pregnancy and body weight could all make someone more or less __16__ to standing at work. The best way to make a choice for yourself, he says, is to __17__ your doctor.
+- __18__ said, Isaacson says the bulk of scientific evidence supports the __19__ that we should minimize time spent sitting. “There’s way more evidence, and I would say stronger evidence, that suggests when someone __20__ for eight hours a day, it’s not good for you,” he says. “It’s not good for the metabolic health, it’s not good for longevity.”
+translation:
+- 久坐已被贴上“新式吸烟”的标签，越来越多身体方面的研究将久坐习惯与多种健康问题联系在一起，比如新陈代谢缓慢，罹患心脏病的风险增加等。上周四，科学期刊《PLOS ONE 》刊发的一篇小规模新研究报告又增添了几项后果，认为长期久坐可能导致记忆衰退和认知力下降。
+- 该研究以35名45岁到75岁的成人为对象。研究人员利用脑部扫描测量每位受试者的内侧颞叶（MTL）——对记忆至关重要的大脑部位，并询问每天静坐和四处活动的时间。虽然不可能得出明确清晰的因果关系，但研究人员发现，MTL体积下降与静坐时间增多有关，这意味着，静坐过久确实可能导致认知力减退。
+- 根据各项研究结果，你可能要下定决心拒绝书桌椅了。但做决定没那么简单，也要参考其他研究。今年2月另一份科学期刊《Ergonomics》刊登的研究说，长期站立可能也不太健康。该研究发现，如果一个工作日里站立两个小时可能会使人周身不适，可能难以保持专注和精力。
+- 这样说来，整天久坐或者久站都不好，到底该怎么办公？纽约长老教会健康照护系统与康奈尔大学Weill医学中心的阿尔茨海默症预防治疗诊所主任、理查德•艾萨克森博士表示，没有放之四海而皆准的办法。
+- 艾萨克森说，“要根据个人情况决定”，身体状况、骨骼问题、妊娠和体重等因素都可能决定是否更适合站立工作。他认为，选择具体方式最好的方法就是咨询私人医生。
+- 但艾萨克森认为，应该尽量减少静坐的时间，这点已经过大量科学证据证明。“证据太多了，要我说还有更有力的证据，总之一天坐八个小时很不健康，”他说，“不利于促进新陈代谢，而且会影响寿命。”
+article_st: null
+translation_st: null
+Q:
+- !!python/object:paper_structure.QC
+    idx: 1
+    type: v
+    type_cn: ''
+    location: P1S1
+    position: null
+    A:
+    - mocked
+    - ''
+    B:
+    - joked
+    - ''
+    C:
+    - dubbed
+    - ''
+    D:
+    - murmured
+    - ''
+    answer: C
+    exp: 因为健康问题，久坐被称为“新式吸烟”。[C] 项 dub 有起外号的意义。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 2
+    type: adj
+    type_cn: ''
+    location: P1S1
+    position: null
+    A:
+    - standing
+    - ''
+    B:
+    - sedentary
+    - ''
+    C:
+    - lying
+    - ''
+    D:
+    - crouching
+    - ''
+    answer: B
+    exp: 越来越多身体方面的研究将久坐习惯与多种健康问题联系在一起。[B] sedentary 指久坐地。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 3
+    type: prep
+    type_cn: ''
+    location: P1S2
+    position: null
+    A:
+    - with
+    - ''
+    B:
+    - for
+    - ''
+    C:
+    - in
+    - ''
+    D:
+    - to
+    - ''
+    answer: D
+    exp: 一篇小规模新研究报告又增添了几项久坐会产生的后果，[D] 项正确。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 4
+    type: n
+    type_cn: ''
+    location: P1S2
+    position: null
+    A:
+    - shortage
+    - ''
+    B:
+    - loss
+    - ''
+    C:
+    - boost
+    - ''
+    D:
+    - gain
+    - ''
+    answer: B
+    exp: 新的研究认为长期久坐可能导致记忆衰退和认知力下降。[B] 项正确。注意 [A] 项指缺乏，而不是下降。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 5
+    type: group
+    type_cn: ''
+    location: P1S2
+    position: null
+    A:
+    - looked
+    - ''
+    B:
+    - examined
+    - ''
+    C:
+    - studied
+    - ''
+    D:
+    - experimented
+    - ''
+    answer: A
+    exp: 该研究对35名45岁到75岁的成人进行观察。[A] 项正确。其余各项作研究意时，均不能与 at 搭配。[C] 项 study at ... 是在某处求学的意思。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 6
+    type: n
+    type_cn: ''
+    location: P2S1
+    position: null
+    A:
+    - heart
+    - ''
+    B:
+    - head
+    - ''
+    C:
+    - brain
+    - ''
+    D:
+    - feet
+    - ''
+    answer: C
+    exp: 对记忆至关重要的大脑部位，[C] 项正确。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 7
+    type: join
+    type_cn: ''
+    location: P2S1
+    position: null
+    A:
+    - While
+    - ''
+    B:
+    - However
+    - ''
+    C:
+    - Since
+    - ''
+    D:
+    - As
+    - ''
+    answer: A
+    exp: 虽然不可能得出明确清晰的因果关系，但研究人员发现……注意到后面的强调句式 did find，所以前面含有轻度的转折，[A] 项正确。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 8
+    type: n
+    type_cn: ''
+    location: P2S2
+    position: null
+    A:
+    - benign
+    - ''
+    B:
+    - venture
+    - ''
+    C:
+    - risk
+    - ''
+    D:
+    - chance
+    - ''
+    answer: C
+    exp: 这意味着，静坐过久确实可能是认知力减退的一个危险因素，[C] 项正确。[B] 指冒险从事某事。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 9
+    type: n
+    type_cn: ''
+    location: P3S1
+    position: null
+    A:
+    - table
+    - ''
+    B:
+    - bench
+    - ''
+    C:
+    - sofa
+    - ''
+    D:
+    - chair
+    - ''
+    answer: D
+    exp: 根据各项研究结果，你可能要下定决心拒绝书桌椅了。[D] 项指椅子。[B] 长凳；[C] 沙发，均不适宜放在书桌前。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 10
+    type: adj
+    type_cn: ''
+    location: P3S2
+    position: null
+    A:
+    - clear
+    - ''
+    B:
+    - synthesized
+    - ''
+    C:
+    - simplified
+    - ''
+    D:
+    - complicated
+    - ''
+    answer: D
+    exp: 如果再看一下今年2月另一份科学期刊《Ergonomics》刊登的研究，这一决定会变得有些复杂。[D] 项正确。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 11
+    type: adv
+    type_cn: ''
+    location: P3S2
+    position: null
+    A:
+    - again
+    - ''
+    B:
+    - neither
+    - ''
+    C:
+    - either
+    - ''
+    D:
+    - also
+    - ''
+    answer: C
+    exp: 长期站立可能也不太健康，[C] 项 either 用在句尾，表示“也”、“同样”。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 12
+    type: v
+    type_cn: ''
+    location: P3S3
+    position: null
+    A:
+    - lead
+    - ''
+    B:
+    - cause
+    - ''
+    C:
+    - link
+    - ''
+    D:
+    - produce
+    - ''
+    answer: A
+    exp: 如果一个工作日里站立两个小时可能会使人周身不适。[A] 导致，符合题意。[B]、[D] 两项不与 to 搭配。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 13
+    type: adj
+    type_cn: ''
+    location: P4S1
+    position: null
+    A:
+    - great
+    - ''
+    B:
+    - excellent
+    - ''
+    C:
+    - bad
+    - ''
+    D:
+    - worse
+    - ''
+    answer: A
+    exp: 这样说来，整天久坐或者久站都不好，到底该怎么办公？[A] 项正确。it's great to do sth，表示做某事很不错。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 14
+    type: n
+    type_cn: ''
+    location: P4S2
+    position: null
+    A:
+    - scheme
+    - ''
+    B:
+    - solution
+    - ''
+    C:
+    - way
+    - ''
+    D:
+    - shoes
+    - ''
+    answer: B
+    exp: 没有放之四海而皆准的办法。[B] 项指解决方案。[A] 项指计划、策划方案。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 15
+    type: pron
+    type_cn: ''
+    location: P5S1
+    position: null
+    A:
+    - that
+    - ''
+    B:
+    - how
+    - ''
+    C:
+    - what
+    - ''
+    D:
+    - why
+    - ''
+    answer: C
+    exp: “要根据个人情况决定”，[C] 项正确。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 16
+    type: adj
+    type_cn: ''
+    location: P5S1
+    position: null
+    A:
+    - happy
+    - ''
+    B:
+    - satisfied
+    - ''
+    C:
+    - willing
+    - ''
+    D:
+    - suited
+    - ''
+    answer: D
+    exp: 身体状况、骨骼问题、妊娠和体重等因素都可能决定是否更适合站立工作。[D] 项正确。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 17
+    type: v
+    type_cn: ''
+    location: P5S2
+    position: null
+    A:
+    - counsel
+    - ''
+    B:
+    - consult
+    - ''
+    C:
+    - demand
+    - ''
+    D:
+    - console
+    - ''
+    answer: B
+    exp: 最好的方法是咨询私人医生。[B] 项正确。[A] 项指给予某人建议；[D] 项指慰问。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 18
+    type: join
+    type_cn: ''
+    location: P6S1
+    position: null
+    A:
+    - What
+    - ''
+    B:
+    - When
+    - ''
+    C:
+    - Which
+    - ''
+    D:
+    - That
+    - ''
+    answer: D
+    exp: That said，表示既然是这样，那么……[D] 项正确。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 19
+    type: n
+    type_cn: ''
+    location: P6S1
+    position: null
+    A:
+    - notice
+    - ''
+    B:
+    - notion
+    - ''
+    C:
+    - notification
+    - ''
+    D:
+    - novel
+    - ''
+    answer: B
+    exp: 尽量减少静坐的时间这一观点已经过大量科学证据证明。[B] 项正确。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
+- !!python/object:paper_structure.QC
+    idx: 20
+    type: v
+    type_cn: ''
+    location: P6S2
+    position: null
+    A:
+    - sits
+    - ''
+    B:
+    - stands
+    - ''
+    C:
+    - runs
+    - ''
+    D:
+    - walks
+    - ''
+    answer: A
+    exp: 总之一天坐八个小时很不健康。[A] 项正确。
+    meani: ''
+    group: ''
+    logic: ''
+    gramm: ''
