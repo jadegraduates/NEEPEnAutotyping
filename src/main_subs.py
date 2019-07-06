@@ -64,7 +64,7 @@ def paper_write_head_page(dw, paper_index):
     dw.write_paragraph('绝密★启用前', space_after=10, bold=True, font_size=10)
     dw.write_paragraph('', space_after=10)
     dw.write_paragraph('', space_after=10)
-    dw.write_paragraph('2019年全国硕士研究生入学统一考试', bold=True, align='CENTER', space_after=10, font_size=20)
+    dw.write_paragraph('2020 年全国硕士研究生入学统一考试', bold=True, align='CENTER', space_after=10, font_size=20)
     dw.write_paragraph('', space_after=10)
     dw.write_paragraph('管理类专业硕士学位联考', bold=True, align='CENTER', space_after=10, font_size=22)
     dw.write_paragraph('', space_after=10)
@@ -99,7 +99,7 @@ def paper_write_closing(dw, closing):
         text = ' '.join(para)
         dw.write_paragraph(text)
     
-    #dw.add_page_break()
+    dw.add_page_break()
     
     for qc_idx in range(1, 21):
         p = dw.write_paragraph(str(qc_idx) + '. ')
@@ -107,7 +107,7 @@ def paper_write_closing(dw, closing):
         p.add_run('[B] ' + closing.Q[qc_idx-1].B[0] + '\t')
         p.add_run('[C] ' + closing.Q[qc_idx-1].C[0] + '\t')
         p.add_run('[D] ' + closing.Q[qc_idx-1].D[0])
-    dw.add_page_break()
+    # dw.add_page_break()
         
 def paper_write_partA(dw, partA):
     dw.write_paragraph('Section II  Reading Comprehension', font_size=14, align='CENTER')
@@ -116,6 +116,7 @@ def paper_write_partA(dw, partA):
     dw.write_paragraph('Directions:', bold=True, space_after=5, first_line_indent=0)
     dw.write_paragraph('Read the following four texts. Answer the questions after each text by choosing A, B, C or D. Mark your answers on the ANSWER SHEET. (40 points)', first_line_indent=0)
     #dw.write_paragraph('')
+    dw.add_page_break()
 
     qa_index = 21
     for text_i in range(0, 4):
@@ -127,6 +128,7 @@ def paper_write_partA(dw, partA):
             text = ' '.join(para)
             dw.write_paragraph(text)
         #dw.add_page_break()  # PAGE BREAK AFTER PART AN ARTICLE
+        dw.add_page_break()
         
         for question_i in range(0, 5):
             dw.write_paragraph(str(qa_index) + ". " + partA[text_i].Q[question_i].question[0], left_indent=21, first_line_indent=-21)
@@ -220,7 +222,7 @@ def paper_write_writing(dw, writing, img_src):
     p.add_run("Do not ").bold = True
     p.add_run("write your address. (10 points)")
 
-    dw.write_paragraph('')
+    dw.add_page_break()
     dw.write_paragraph('Part B', bold=True, first_line_indent=0, space_after=8)
     dw.write_paragraph('48. Directions:', bold=True, space_after=5, first_line_indent=0)
 
