@@ -7,9 +7,10 @@ meta: !!python/object/new:paper_structure.Meta
         journal: The Christian Science Monitor
         title: As Wild Fires Challenge California, the Causes Go beyond Climate
         url: https://www.csmonitor.com/USA/2016/0701/As-wildfires-challenge-California-the-causes-go-beyond-climate
-        maker: Guo Zongyao
+        maker: ''
         test: NEEP-II-A
         type: S
+        words: '398'
         translator: Guo Zongyao
         time: '2017-10-19'
         reviewer: ''

@@ -10,7 +10,7 @@ meta: !!python/object/new:paper_structure.Meta
         maker: ''
         test: NEEP-II-A
         type: S
-        words: 398
+        words: '398'
         translator: Guo Zongyao
         time: '2017-10-19'
         reviewer: ''
@@ -47,7 +47,7 @@ Q:
     position: null
     question:
     - More frequent wildfires have become a national concern because in 2015 they ______.
-    - 频发的野火已经成为了全国关注之事，这是因为在2015年它们 ______。
+    - 频发的野火已经成为了全国关注之事，这是因为在2015年它们 ______
     - 本道题是一道细节信息题。根据题干中的关键词More frequent wildfires，a national concern可以定位至第一段。但是，分析题干可知，because前为结果，后为原因。根据题干中的in 2015定位至第二段第一句，In 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires — nearly double the percentage it spent on such efforts 20 years ago，因此答案选A。
     A:
     - consumed a record—high percentage of budget
@@ -72,8 +72,8 @@ Q:
     location: P4S1
     position: null
     question:
-    - Moritz calls for the use of “a magnifying glass” to ______.
-    - Moritz号召使用“放大镜”来 ______。
+    - Moritz calls for the use of “a magnifying glass” to ______
+    - Moritz号召使用“放大镜”来 ______
     - 本道题是一道细节信息题。根据题干中的关键词Moritz，“a magnifying glass”可以定位至第四段第二句，We need to take a magnifying glass to that，显然，这里面的that就是答案。而that指代的是第四段第一句，It’s already a huge problem from a public expenditure perspective for the whole country。另外第三句和第四句是对第二句的补充，第三句和第四句的意思是：在对公共资金的使用要慎重，确保准确无差错。由此可以确定选D。
     A:
     - avoid the redirection of federal money
@@ -99,7 +99,7 @@ Q:
     position: null
     question:
     - While admitting that climate is a key element, Moritz notes that ______.
-    - 在承认气候是一个关键因素的同时，Moritz也指出 ______。
+    - 在承认气候是一个关键因素的同时，Moritz也指出 ______.
     - 本道题是一道人物观点态度题。根据题干中的关键词climate is a key element可以定位至第七段While climate is a key element, Moritz says, it shouldn’t come at the expense of the rest of the equation。其中，Moritz notes即为Moritz says的同义替换，因此it shouldn’t come at the expense of the rest of the equation就是答案。故选C。
     A:
     - public debates have not settled yet
