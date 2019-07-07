@@ -19,7 +19,6 @@ optional arguments:
   -d , --directory   required, directory for yaml surce files
   -n , --name        required, name prefix for output files'
   -t , --title       paper title suffix, default Empty
-
 ```
 ## Usage
 Download the project to your local machine, install the prerequisites, and place source files under a relavent directory.
@@ -28,7 +27,6 @@ Download the project to your local machine, install the prerequisites, and place
 
 ```
  python3 main.py -d ../inputs/source_dir/ -n output_name
- 
 ```
 
 9 source files must be placed under source_dir/. Give the directory a relavent name and it is recommended to place it under ../inputs/, although it's not required.
