@@ -1,47 +1,47 @@
 !!python/object:paper_structure.PartB
 meta: !!python/object/new:paper_structure.Meta
     dictitems:
-        filename: PartB2
+        filename: PartB2-1-M1
         author: Diana White
         date: '2014-06-26'
         journal: Womanitely
         title: 9 Old Truths to Help You Overcome Tough Times
         url: http://womanitely.com/old-truths-overcome-tough-times/
-        maker: ''
+        maker: Guo Zongyao
         test: NEEP-II-B2
         type: ''
-        words: 550
-        translator: ''
+        words: '0'
+        translator: Zhang Shichao
         time: '2017-12-10'
         reviewer: ''
         score: ''
 article:
 - 'Unfortunately, life is not a bed of roses. /2/ We are going through life facing sad experiences. /3/ Moreover, we are grieving various kinds of loss: a friendship, a romantic relationship or a house. /4/ Hard times may hold you down at what usually seems like the most inopportune time, but you should remember that they won’t last forever.'
 - When our time of mourning is over, we press forward, stronger with a greater understanding and respect for life. /2/ Furthermore, these losses make us mature and eventually move us toward future opportunities for growth and happiness. /3/ I want to share these old truths I’ve learned along the way.
-- '## Most of your fears are unreal'
-- Fear is both useful and harmful. /2/ This normal human reaction is used to protect us by signaling danger and preparing us to deal with it. /3/ Unfortunately, people create inner barriers with a help of exaggerating fears. /4/ My favorite actor Will Smith once said, “Fear is not real. /5/ It is a product of thoughts you create. /6/ Do not misunderstand me. /7/ Danger is very real. /8/ But fear is a choice.” /9/ I do completely agree that fears are just the product of our luxuriant imagination.
-- '## Think about the present moment'
+- '##Most of your fears are unreal'
+- Fear is both useful and harmful. /2/ This normal human reaction is used to protect us by signaling danger and preparing us to deal with it. /3/ Unfortunately, people create inner barriers with a help of exaggerating fears. /4/ My favorite actor Will Smith once said, “Fear is not real. It is a product of thoughts you create. Do not misunderstand me. Danger is very real. But fear is a choice.” /5/ I do completely agree that fears are just the product of our luxuriant imagination.
+- '##Think about the present moment'
 - If you are surrounded by problems and cannot stop thinking about the past, try to focus on the present moment. /2/ Many of us are weighed down by the past or anxious about the future. /3/ You may feel guilt over your past, but you are poisoning the present with the things and circumstances you cannot change. /4/ Value the present moment and remember how fortunate you are to be alive. /5/ Enjoy the beauty of the world around and keep the eyes open to see the possibilities before you. /6/ Happiness is not a point of future and not a moment from the past, but a mindset that can be designed into the present.
-- '## There are many things to be grateful for'
+- '##There are many things to be grateful for'
 - Sometimes it is easy to feel bad because you are going through tough times. /2/ You can be easily caught up by life problems that you forget to pause and appreciate the things you have. /3/ Only strong people prefer to smile and value their life instead of crying and complaining about something.
-- '## You are not alone'
+- '##You are not alone'
 - No matter how isolated you might feel and how serious the situation is, you should always remember that you are not alone. /2/ Try to keep in mind that almost everyone respects and wants to help you if you are trying to make a good change in your life, especially your dearest and nearest people. /3/ You may have a circle of friends who provide constant good humor, help and companionship. /4/ If you have no friends or relatives, try to participate in several online communities, full of people who are always willing to share advice and encouragement.
-- '## Pave your own unique path'
+- '##Pave your own unique path'
 - Today many people find it difficult to trust their own opinion and seek balance by gaining objectivity from external sources. /2/ This way you devalue your opinion and show that you are incapable of managing your own life. /3/ When you are struggling to achieve something important you should believe in yourself and be sure that your decision is the best. /4/ You live in your skin, think your own thoughts, have your own values and make your own choices.
 article_st: null
 translation:
-- 译文
-- 译文
+- 不幸的是，生活并非总是称心如意。/2/ 生活里到处都是悲伤的经历。/3/ 同时我们为各种失去感到伤心：一份友谊，一段恋情，或者一套房子。/4/ 艰难的时期，经常在最不适合的时候到来，让人情绪低落，但是你应该记住，它不会永远持续。
+- 当悲伤过去，我们继续向前，更加理解和尊重生活，我们也变得更加强壮。/2/ 同时这些失去使我们成熟，最终让我们获得未来的成长和幸福的机会。/3/ 让我来分享一些我在生活的路上学到的一些古老的真理。
 - '##你大多数的恐惧都不是真实的'
-- 译文
+- 恐惧有益也有害。/2/ 这是一种正常的人类反应，通知我们危险信号，让我们做好应对准备，从而保护我们。/3/ 不幸的是，人们因为夸大恐惧，建立起内心的屏障。/4/ 我最喜欢的演员 Will Smith 曾经说：“恐惧不是真实的。他是我们的思想产生的结果。不要误解我，危险非常真实。但是恐惧是一种选择。”/5/ 我完全同意，恐惧只是我们丰富想象的结果。
 - '##思考当下'
-- 译文
+- 如果你被问题包围，不停思考过去，尝试专注于现在。/2/ 许多人背着过去的包袱，对未来焦虑。/3/ 你可能对过去感到愧疚，但这是在用不可以改变的事情和情况来毒害现在。/4/ 意识到现在的价值，记住活在这个世界上是多么幸运。/5/ 享受周围世界的美丽，睁开双眼看自己眼前的各种机会。/6/ 幸福不是未来或者过去的某一段时间，而是现在的可以调整的心态。
 - '##有很多事需要感恩'
-- 译文
+- 有些时候，因为你在经历困难时期，很容易感到不顺。/2/ 你很容易因为已经忘记的生活问题陷入困境，不能够停下来欣赏既已拥有的事物。/3/ 只有心理强大的人，才倾向于微笑面对，发现生活的价值，而不是哭泣和抱怨。
 - '##你并不孤独'
-- 译文
+- 不管你感到多么的孤立，情况是多么的糟糕，你应当永远记住，你并不孤单。/2/ 记住，如果你想要对生活做出好的改变，几乎所有人都会尊重并且愿意帮助你，尤其是和你最亲最近的人。/3/ 你可能有一个朋友圈子，可以提供持续的轻松的氛围，帮助和陪伴。/4/ 如果你没有朋友或亲戚，尝试参与几个网络社区，这些网络社区里面充满了永远愿意分享建议和提供帮助的人。
 - '##铺设你自己独特的路'
-- 译文
+- 如今许多人发现，很难相信自己的观点，尝试通过从外部资源寻找客观来找到平衡。/2/ 这样做是在贬低自己的观点，并且表明你没有能力来管理自己的生活。/3/ 当你在努力争取一些重要的事物时，你应当相信自己，并且确信自己的选择是最好的。/4/ 你是你自己，思考自己的问题，有自己的价值，作出自己的选择。
 translation_st: null
 characters:
 - ''
@@ -65,17 +65,16 @@ opinions:
 -   - Don’t fear responsibility for your life
     - 不要害怕为你的人生负责
 intpts:
--   - 阅读分析第三段可知fear为本段出现频率最高的关键词。再根据第四句：Fear is not real,第五句：It is a product of thoughts you create,第八句：I do completely agree that fears are just the product of our luxuriant imagination,可知本段的主旨和D选项：Most of your fears are unreal不谋而合，因此，答案为D选项。
-    - 干扰项的解释，若没有则留空。
--   - 阅读分析第四段第一句话（If you are surrounded by problems and cannot stop thinking about the past, try to focus on the present moment）可知作者的建议是focus on the present moment（关注当下）。然后，第四句话（Value the present moment and remember how fortunate you are to be alive）以及最后一句话（Happiness is not a point of future and not a moment from the past, but a mindset that can be designed into the present）再次体现了作者的这一建议，可见本段的主旨为关注当下。因此E选项（Think about the present moment）为正确选项。
-    - B选项（Experience helps you grow）根据该段中的Many of us are weighed down by the past以及You may feel guilt over your past设置干扰，但是该段的主题为present而非experience。该选项属于以偏概全。
--   - 阅读分析第五段第二句话可知，人们很容易被生活中所遭遇的麻烦而忘记欣赏自己所拥有的东西。第三句话指出：坚强的人会珍惜他们的生活而不是一味的抱怨。因此可知G选项（ There are many things to be grateful for）为本段主旨。其中，appreciate，value，instead of crying and complaining是be grateful的同义替换。
+-   - 阅读分析第三段可知 fear（恐惧）为本段出现频率最高的关键词。再根据第四句：Fear is not real（恐惧不是真实的），第五句：It is a product of thoughts you create（它是你自己所创造出来的思维产物），第八句：I do completely agree that fears are just the product of our luxuriant imagination（我确实完全认同恐惧只是我们丰富想象力的产物），可知本段的主旨和 [D] 选项：Most of your fears are unreal（你大多数的恐惧都不是真实的）不谋而合，因此，答案为 [D] 选项。
     - ''
--   - 阅读分析第六段第一句话可知该段的主旨为you should always remember that you are not alone（你要永远记得你并不孤独），因此A选项（You are not alone）为正确选项。
+-   - 阅读分析第四段第一句话，If you are surrounded by problems and cannot stop thinking about the past, try to focus on the present moment.（如果你被一堆问题所困扰，且无法停止回想过去，那就试着去聚焦于当下。）可知作者的建议是 focus on the present moment（关注当下）。然后，第四句话，Value the present moment and remember how fortunate you are to be alive.（珍惜当下，记住自己能活着是多么幸运。）以及最后一句话，Happiness is not a point of future and not a moment from the past, but a mindset that can be designed into the present.（幸福不是未来的某一点，也不是过去的某一刻，而是一种有意融入当下的心态。）再次体现了作者的这一建议，可见本段的主旨为关注当下。因此 [E] 选项 Think about the present moment（思考当下）为正确选项。
+    - '[B] 选项 Experience helps you grow（经历帮你成长）根据第四段中的 Many of us are weighed down by the past（我们中的很多人都被过去所压垮）以及 You may feel guilt over your past（你可能为你的过去感到内疚）设置干扰，但是该段的主题为 present（当下的）而非 experience（经历）。该选项属于以偏概全。'
+-   - 阅读分析第五段第二句话可知，人们很容易被生活中所遭遇的麻烦而忘记欣赏自己所拥有的东西。第三句话指出：坚强的人会珍惜他们的生活而不是一味的抱怨。因此可知 [G] 选项 There are many things to be grateful for（有很多事需要感恩）为本段主旨。其中，appreciate（欣赏），value（珍惜），instead of crying and complaining（而不是哭和抱怨）是 be grateful（感恩）的同义替换。
     - ''
--   - 阅读分析第七段可知，最后一句话（You live in your skin, think your own thoughts, have your own values and make your own choices）体现了本段主旨。C选项（Pave your own unique path）是think your own thoughts, have your own values and make your own choices的同义替换。
-    - F选项（Don’t fear responsibility for your life）根据该段中的Today many people find it difficult to trust their own opinion，you are incapable of managing your own life设置干扰，但是responsibility并非本段主旨，该选项属于以偏概全。
-no_intf: 
-- ''
-- ''
+-   - 阅读分析第六段第一句话可知该段的主旨为 you should always remember that you are not alone（你要永远记得你并不孤独），因此 [A] 选项 You are not alone（你并不孤独）为正确选项。
+    - ''
+-   - 阅读分析第七段可知，最后一句话，You live in your skin, think your own thoughts, have your own values and make your own choices.（你生活在自己的皮囊之下，思考着你自己的想法，拥有自己的价值观且做出你自己的决定。）体现了本段主旨。[C] 选项 Pave your own unique path（铺设你自己独特的路）是 think your own thoughts, have your own values and make your own choices（思考着你自己的想法，拥有自己的价值观且做出你自己的决定）的同义替换。
+    - ''
+no_intf: []
 opinions_order: DEGACBF
+answers: null
