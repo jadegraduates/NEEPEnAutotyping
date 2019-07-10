@@ -1,18 +1,18 @@
 !!python/object:paper_structure.PartA
 meta: !!python/object/new:paper_structure.Meta
     dictitems:
-        filename: 2017-Text1-M5
-        author: ''
-        date: '2015-07-05'
+        filename: Text1
+        author: David
+        date: 2015-07-05
         journal: The Guardian
         title: 'The Olympic legacy: running out of steam'
         url: https://www.theguardian.com/commentisfree/2015/jul/05/the-guardian-view-on-the-olympic-legacy-running-out-of-steam
-        maker: ''
+        maker: Your Name
         test: NEEP-II-A
         type: S
         words: '405'
-        translator: Guo Zongyao
-        time: '2017-10-13'
+        translator: offical
+        time: 2017-10-13
         reviewer: ''
         score: ''
 article:
@@ -29,6 +29,7 @@ article_st: null
 translation_st: null
 Q:
 - !!python/object:paper_structure.QA
+    idx: 1
     type: info
     type_cn: ''
     location: P1-P1
@@ -55,6 +56,7 @@ Q:
     - 选项属于无中生有。community ties（社区间的联系）应该是对文中的 local park，a dozen friends，four years old, grandparents（当地的公园、12个朋友、四岁的孩子，祖父母）的错误理解，将其理解为一个社区，这项运动加强了社区中人们的关系。但是，文中并没有提到跑步者之前的关系。
     answer: B
 - !!python/object:paper_structure.QA
+    idx: 2
     type: vip
     type_cn: ''
     location: P2-P2
@@ -81,6 +83,7 @@ Q:
     - 选项正确。根据该段的第三句至第五句，第六句至第九句可知，London’s Olympic “legacy” has failed to promote sport participation（奥运会没能让人们对运动的参与度提升）。
     answer: D
 - !!python/object:paper_structure.QA
+    idx: 3
     type: info
     type_cn: ''
     location: P3S4
@@ -107,6 +110,7 @@ Q:
     - 该选项有两处错误。其一，反向干扰。根据第三段第三句There is as much joy over a puffed-out first-timer being clapped over the line as there is about top talent shining.（气喘吁吁的首次参赛选手在观众的掌声中到达终点时，得到的快乐和闪闪发光的运动天才一样多。）由此可见，公园跑是吸引first-timers的。其二，张冠李戴。根据第三段第五句The stress on success over taking part was intimidating for newcomers可知，奥运会让newcomers/first-timers望而生畏，因此是奥运会对新手没有吸引力，而非公园跑。
     answer: C
 - !!python/object:paper_structure.QA
+    idx: 4
     type: vip
     type_cn: ''
     location: P4-P4
@@ -133,6 +137,7 @@ Q:
     - 选项属于定位错误和偷梁换柱。其一，local sports associations（当地运动协会）可以看作是对第一句中 community sports associations（社区体育协会）的同义替换，显然这不在定位范围内。其二，该句话说的是政府像社区体育协会一样参与计划这样一个完全“草根”的概念，是有些荒谬，并没有提到政府和社区体育协会之间的关系是 supervise（监管）。
     answer: B
 - !!python/object:paper_structure.QA
+    idx: 5
     type: att
     type_cn: ''
     location: P4-P4

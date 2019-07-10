@@ -2,7 +2,7 @@
 meta: !!python/object/new:paper_structure.Meta
     dictitems:
         filename: Writing
-        maker: Guo Zongyao, Zhang Shichao
+        maker: 
         test: NEEP-II-W
         1-type: Gra, Inv
         2-type: Pie
@@ -12,9 +12,6 @@ l_direction:
 - Suppose you have found something wrong with the food that you ordered from a restaurant. Write an email to the owner of this restaurant to
 - 1) make a complaint, and
 - 2) demand a prompt solution.
-- You should write about 100 words on the ANSWER SHEET.
-- Do not sign your own name at the end of the letter. Use“Li Ming”instead.
-- Do not write your address.(10 points)
 
 l_explanation:
 - (1) 确定应用文类型

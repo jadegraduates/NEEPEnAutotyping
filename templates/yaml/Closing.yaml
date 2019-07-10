@@ -32,11 +32,11 @@ Q:
     idx: 1
     type: v
     type_cn: ''
-    location: ~P1S2;P1S4
+    location: P1S2;P1S4
     position: null
     A:
     - boasting
-    - ''
+    - 吹嘘
     B:
     - denying
     - ''
@@ -80,7 +80,7 @@ Q:
     idx: 3
     type: n
     type_cn: ''
-    location: ~P2S1
+    location: P2S1
     position: null
     A:
     - policy
@@ -104,7 +104,7 @@ Q:
     idx: 4
     type: v
     type_cn: ''
-    location: ~P2S1
+    location: P2S1
     position: null
     A:
     - characterized
@@ -128,7 +128,7 @@ Q:
     idx: 5
     type: n
     type_cn: ''
-    location: ~P2S1
+    location: P2S1
     position: null
     A:
     - wisdom
@@ -176,7 +176,7 @@ Q:
     idx: 7
     type: adj
     type_cn: ''
-    location: ~P2S3
+    location: P2S3
     position: null
     A:
     - rich
@@ -224,7 +224,7 @@ Q:
     idx: 9
     type: prep
     type_cn: ''
-    location: ~P2S4
+    location: P2S4
     position: null
     A:
     - under
@@ -248,7 +248,7 @@ Q:
     idx: 10
     type: group
     type_cn: ''
-    location: ~P2S5
+    location: P2S5
     position: null
     A:
     - leave behind
@@ -296,7 +296,7 @@ Q:
     idx: 12
     type: n
     type_cn: ''
-    location: ~P3S1;P3S2
+    location: P3S1;P3S2
     position: null
     A:
     - chances
@@ -320,7 +320,7 @@ Q:
     idx: 13
     type: n
     type_cn: ''
-    location: ~P3S1;P3S3
+    location: P3S1;P3S3
     position: null
     A:
     - absence
@@ -416,7 +416,7 @@ Q:
     idx: 17
     type: n
     type_cn: ''
-    location: ~P4S1
+    location: P4S1
     position: null
     A:
     - demands
@@ -440,7 +440,7 @@ Q:
     idx: 18
     type: v
     type_cn: ''
-    location: ~P4S2
+    location: P4S2
     position: null
     A:
     - ignored
@@ -464,7 +464,7 @@ Q:
     idx: 19
     type: prep
     type_cn: ''
-    location: ~P4S2
+    location: P4S2
     position: null
     A:
     - 'off'

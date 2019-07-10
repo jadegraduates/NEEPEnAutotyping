@@ -1,6 +1,6 @@
 # An Auto typing script for NEEP(National Entrance Examination for Postgraduates of China) English II Paper
 
-- see [video](http://to_be_added)
+- see [video](https://space.bilibili.com/441188701/channel/detail?cid=80171)
 ## Prerequisites:
 
 ```
