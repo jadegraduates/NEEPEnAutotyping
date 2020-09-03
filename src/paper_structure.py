@@ -296,8 +296,12 @@ class PartA:
         self.Q = [QA(), QA(), QA(), QA(), QA()]
         
     def split_sentence(self):
-        self.article_st = split_article_stce(self.article)
-        self.translation_st = split_article_stce(self.translation)
+        try:
+            self.article_st = split_article_stce(self.article)
+            self.translation_st = split_article_stce(self.translation)
+        except Exception as e:
+            print(e)
+            print('error at paper_structure.py split_sentence(): ', self.meta['filename'], '\n')
     
     def parse_question_position(self):
         for q in self.Q:

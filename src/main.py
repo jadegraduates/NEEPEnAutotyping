@@ -32,6 +32,7 @@ parser = argparse.ArgumentParser(description='NEEP English II paper Autotyping')
 parser.add_argument('-d', '--directory', metavar='', required=True, help='required, directory for yaml surce files')
 parser.add_argument('-n', '--name', metavar='', required=True, help="required, name prefix for output files'")
 parser.add_argument('-t', '--title', metavar='', default='', required=False, help='paper title suffix, default Empty')
+parser.add_argument('-l', '--template', metavar='', default='template.docx', required=False, help='docx template file')
 
 
 args = parser.parse_args()
@@ -44,6 +45,7 @@ words_dict = wds.readWords(os.path.join('..', 'inputs', 'words_marked.txt'))
 paper_name = args.name
 source_dir = args.directory
 paper_index = args.title
+template_docx = args.template
 
 out_folder = source_dir
 
@@ -63,7 +65,7 @@ img_src = paper_files['img']
 
 paper = main_sub.paper_load_from_files(paper_files)
 
-template_docx = os.path.join('..', 'inputs', 'template.docx')
+template_docx = os.path.join('..', 'inputs', template_docx)
 
 #---------------------------------------------------------------------------------------#
 #                             Generating  Paper
@@ -99,7 +101,7 @@ pbar.set_description('Generating solution(simplified) ...')
 
 dw = DocxWrapper(template_docx)
 
-dw.write_paragraph('2019年全国硕士研究生入学统一考试', bold=True, align='CENTER', space_after=10, font_size=18)
+dw.write_paragraph('2021年全国硕士研究生入学统一考试', bold=True, align='CENTER', space_after=10, font_size=18)
 dw.write_paragraph('英语（二）试卷' + paper_index + '解析', bold=True, align='CENTER', space_after=10, font_size=18)
 
 main_sub.paper_solution_simple_write_closing(dw, paper.closing, words_dict)
@@ -126,7 +128,7 @@ if False:
   pbar.set_description('Generating solution(sophisticated) ...')
   dw = DocxWrapper(template_docx)
 
-  dw.write_paragraph('2019年全国硕士研究生入学统一考试', bold=True, align='CENTER', space_after=10, font_size=18)
+  dw.write_paragraph('2021年全国硕士研究生入学统一考试', bold=True, align='CENTER', space_after=10, font_size=18)
   dw.write_paragraph('英语（二）试卷' + paper_index + '解析', bold=True, align='CENTER', space_after=10, font_size=18)
 
   main_sub.paper_solution_write_closing(dw, paper.closing, words_dict)

@@ -64,7 +64,7 @@ def paper_write_head_page(dw, paper_index):
     dw.write_paragraph('绝密★启用前', space_after=10, bold=True, font_size=10)
     dw.write_paragraph('', space_after=10)
     dw.write_paragraph('', space_after=10)
-    dw.write_paragraph('2020 年全国硕士研究生入学统一考试', bold=True, align='CENTER', space_after=10, font_size=20)
+    dw.write_paragraph('2021 年全国硕士研究生入学统一考试', bold=True, align='CENTER', space_after=10, font_size=20)
     dw.write_paragraph('', space_after=10)
     dw.write_paragraph('管理类专业硕士学位联考', bold=True, align='CENTER', space_after=10, font_size=22)
     dw.write_paragraph('', space_after=10)
@@ -120,25 +120,29 @@ def paper_write_partA(dw, partA):
 
     qa_index = 21
     for text_i in range(0, 4):
-        p = dw.write_paragraph('Text '+ str(text_i+1), space_after=20, align='CENTER', bold=True)
-        #p.paragraph_format.space_before = Pt(0)
-        
-        for para in partA[text_i].article_st:
-            #dw.write_paragraph(trim(para))
-            text = ' '.join(para)
-            dw.write_paragraph(text)
-        #dw.add_page_break()  # PAGE BREAK AFTER PART AN ARTICLE
-        dw.add_page_break()
-        
-        for question_i in range(0, 5):
-            dw.write_paragraph(str(qa_index) + ". " + partA[text_i].Q[question_i].question[0], left_indent=21, first_line_indent=-21)
-            qa_index += 1
-            dw.write_paragraph("[A] " + partA[text_i].Q[question_i].A[0], left_indent=0, first_line_indent=15)
-            dw.write_paragraph("[B] " + partA[text_i].Q[question_i].B[0], left_indent=0, first_line_indent=15)
-            dw.write_paragraph("[C] " + partA[text_i].Q[question_i].C[0], left_indent=0, first_line_indent=15)
-            dw.write_paragraph("[D] " + partA[text_i].Q[question_i].D[0], left_indent=0, first_line_indent=15)
-            dw.write_paragraph('')
-            #dw.write_paragraph(document, "answer: ", partA[text_i].Q[question_i].answer)
+        try:
+            p = dw.write_paragraph('Text '+ str(text_i+1), space_after=20, align='CENTER', bold=True)
+            #p.paragraph_format.space_before = Pt(0)
+            
+            for para in partA[text_i].article_st:
+                #dw.write_paragraph(trim(para))
+                text = ' '.join(para)
+                dw.write_paragraph(text)
+            #dw.add_page_break()  # PAGE BREAK AFTER PART AN ARTICLE
+            dw.add_page_break()
+            
+            for question_i in range(0, 5):
+                dw.write_paragraph(str(qa_index) + ". " + partA[text_i].Q[question_i].question[0], left_indent=21, first_line_indent=-21)
+                qa_index += 1
+                dw.write_paragraph("[A] " + partA[text_i].Q[question_i].A[0], left_indent=0, first_line_indent=15)
+                dw.write_paragraph("[B] " + partA[text_i].Q[question_i].B[0], left_indent=0, first_line_indent=15)
+                dw.write_paragraph("[C] " + partA[text_i].Q[question_i].C[0], left_indent=0, first_line_indent=15)
+                dw.write_paragraph("[D] " + partA[text_i].Q[question_i].D[0], left_indent=0, first_line_indent=15)
+                dw.write_paragraph('')
+                #dw.write_paragraph(document, "answer: ", partA[text_i].Q[question_i].answer)
+        except Exception as e:
+            print(e)
+            print('paper_write_partA(): error at Text ', text_i+1, ',question ', question_i+1)
         dw.add_page_break()  # PAGE BREAK AFTER PART A QUESTIONS
 
 def paper_write_partB(dw, partB):
@@ -549,37 +553,45 @@ def paper_solution_simple_write_partA(dw, partA, words_dict):
 
         dw.write_paragraph('「习题解析」', font_size=12, align='LEFT', bold=True, first_line_indent=-21)
         for question_i in range(0, 5):
-            Question = partA[text_i].Q[question_i]
-            #''' # Uncomment this if you want a table of questions & its translations
-            table = dw.add_table(rows = 5, cols = 2, style='Table Grid')
-            table.rows[0].cells[0].text = str(qa_index) + '. ' + Question.question[0]
-            table.rows[0].cells[1].text = str(qa_index) + '. ' + Question.question[1]
-            rows_i = 1
-            for data in (Question.A, Question.B, Question.C, Question.D):
-                table.rows[rows_i].cells[0].text = '[' + labels[rows_i-1] + '] ' + data[0]
-                table.rows[rows_i].cells[1].text = '[' + labels[rows_i-1] + '] ' + data[1]
-                rows_i += 1
-            dw.write_paragraph('')
-            #'''
-        
-            type = Question.type
-            answer = Question.answer
-       
-            dw.write_paragraph(str(qa_index) + '. ' + '「试题类型」 ' + type_names[type], align='LEFT', bold=True, left_indent=21, first_line_indent=-21)
-            dw.write_paragraph('「答案」 ' + answer, align='LEFT', bold=True, left_indent=21, first_line_indent=-21)
-        
-            p = dw.write_paragraph('「题目概览」', align='LEFT', bold=True, left_indent=10, first_line_indent=-10)
-            p.add_run(Question.question[2])
-            #print(Question.question[1])
+            try:
+                Question = partA[text_i].Q[question_i]
+                #''' # Uncomment this if you want a table of questions & its translations
+                table = dw.add_table(rows = 5, cols = 2, style='Table Grid')
+                table.rows[0].cells[0].text = str(qa_index) + '. ' + Question.question[0]
+                table.rows[0].cells[1].text = str(qa_index) + '. ' + Question.question[1]
+                rows_i = 1
+                for data in (Question.A, Question.B, Question.C, Question.D):
+                    try:
+                        table.rows[rows_i].cells[0].text = '[' + labels[rows_i-1] + '] ' + data[0]
+                        table.rows[rows_i].cells[1].text = '[' + labels[rows_i-1] + '] ' + data[1]
+                    except Exception as e:
+                        print(e)
+                        print('paper_solution_simple_write_partA: ', data[0], data[1])
+                    rows_i += 1
+                dw.write_paragraph('')
+                #'''
+            
+                type = Question.type
+                answer = Question.answer
+           
+                dw.write_paragraph(str(qa_index) + '. ' + '「试题类型」 ' + type_names[type], align='LEFT', bold=True, left_indent=21, first_line_indent=-21)
+                dw.write_paragraph('「答案」 ' + answer, align='LEFT', bold=True, left_indent=21, first_line_indent=-21)
+            
+                p = dw.write_paragraph('「题目概览」', align='LEFT', bold=True, left_indent=10, first_line_indent=-10)
+                p.add_run(Question.question[2])
+                #print(Question.question[1])
 
-            p = dw.write_paragraph('「选项解析」', align='LEFT', bold=True, left_indent=10, first_line_indent=-10)
-            p.add_run('[A] ' + Question.A[2])
-        
-            dw.write_paragraph('[B] ' + Question.B[2], align='LEFT', left_indent=21, first_line_indent=-21)
-            dw.write_paragraph('[C] ' + Question.C[2], align='LEFT', left_indent=21, first_line_indent=-21)
-            dw.write_paragraph('[D] ' + Question.D[2], align='LEFT', left_indent=21, first_line_indent=-21)
-            #print(Question.D[1])
-            qa_index += 1
+                p = dw.write_paragraph('「选项解析」', align='LEFT', bold=True, left_indent=10, first_line_indent=-10)
+                p.add_run('[A] ' + Question.A[2])
+            
+                dw.write_paragraph('[B] ' + Question.B[2], align='LEFT', left_indent=21, first_line_indent=-21)
+                dw.write_paragraph('[C] ' + Question.C[2], align='LEFT', left_indent=21, first_line_indent=-21)
+                dw.write_paragraph('[D] ' + Question.D[2], align='LEFT', left_indent=21, first_line_indent=-21)
+                #print(Question.D[1])
+                qa_index += 1
+            except Exception as e:
+                print(e)
+                print('paper_solution_simple_write_partA: error at Text ', text_i+1, ',question ', question_i, '\n')
         dw.write_paragraph('「参考译文」', bold=True, align='LEFT', left_indent=10, first_line_indent=-10)
         for para in partA[text_i].translation:
             dw.write_paragraph(para)
