@@ -2,9 +2,9 @@
 meta: !!python/object/new:paper_structure.Meta
     dictitems:
         filename: PartB1
-        author: 
+        author: ''
         date: 1900-01-01
-        journal: 
+        journal: ''
         title: 
         url: 
         maker: ''
@@ -54,17 +54,17 @@ opinions:
     - 
 intpts:
 -   - 
-    - 
+    - ''
 -   - 
-    - 
+    - ''
 -   - 
-    - 
+    - ''
 -   - 
-    - 
+    - ''
 -   - 
-    - 
+    - ''
 
 no_intf:
-- 
-- 
+- ''
+- ''
 opinions_order: EAGBFCD
