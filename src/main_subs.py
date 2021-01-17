@@ -60,11 +60,11 @@ def paper_load_from_files(paper_files):
     
     return paper
 
-def paper_write_head_page(dw, paper_index):
+def paper_write_head_page(dw, paper_index, paper_year):
     dw.write_paragraph('绝密★启用前', space_after=10, bold=True, font_size=10)
     dw.write_paragraph('', space_after=10)
     dw.write_paragraph('', space_after=10)
-    dw.write_paragraph('2021 年全国硕士研究生入学统一考试', bold=True, align='CENTER', space_after=10, font_size=20)
+    dw.write_paragraph(paper_year + ' 年全国硕士研究生入学统一考试', bold=True, align='CENTER', space_after=10, font_size=20)
     dw.write_paragraph('', space_after=10)
     dw.write_paragraph('管理类专业硕士学位联考', bold=True, align='CENTER', space_after=10, font_size=22)
     dw.write_paragraph('', space_after=10)
@@ -538,7 +538,7 @@ def paper_solution_simple_write_closing(dw, closing, words_dict):
         p.add_run(closing.Q[qc_idx-1].exp)
     #dw.add_page_break()
     
-def paper_solution_simple_write_partA(dw, partA, words_dict):
+def paper_solution_simple_write_partA(dw, partA, words_dict, paper_is_trans):
     dw.write_paragraph('Section II  Reading Comprehension', font_size=14, align='CENTER')
     dw.write_paragraph('')
     dw.write_paragraph('Part A', bold=True, first_line_indent=0, space_after=8)
@@ -592,9 +592,10 @@ def paper_solution_simple_write_partA(dw, partA, words_dict):
             except Exception as e:
                 print(e)
                 print('paper_solution_simple_write_partA: error at Text ', text_i+1, ',question ', question_i, '\n')
-        dw.write_paragraph('「参考译文」', bold=True, align='LEFT', left_indent=10, first_line_indent=-10)
-        for para in partA[text_i].translation:
-            dw.write_paragraph(para)
+        if paper_is_trans:
+            dw.write_paragraph('「参考译文」', bold=True, align='LEFT', left_indent=10, first_line_indent=-10)
+            for para in partA[text_i].translation:
+                dw.write_paragraph(para)
 
         #dw.add_page_break()  # PAGE BREAK AFTER PART A QUESTIONS
 

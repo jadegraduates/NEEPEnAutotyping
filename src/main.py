@@ -30,8 +30,10 @@ main_gaofen.py & main_gaofen_subs.py is to generate Gaofen book.
 
 parser = argparse.ArgumentParser(description='NEEP English II paper Autotyping')
 parser.add_argument('-d', '--directory', metavar='', required=True, help='required, directory for yaml surce files')
-parser.add_argument('-n', '--name', metavar='', required=True, help="required, name prefix for output files'")
-parser.add_argument('-t', '--title', metavar='', default='', required=False, help='paper title suffix, default Empty')
+parser.add_argument('-y', '--year', metavar='', default='2021', required=False, help='year of paper, in front of paper title')
+parser.add_argument('-n', '--name', metavar='', required=False, help="name prefix of output files', default to be --year")
+parser.add_argument('-s', '--suffix', metavar='', default='', required=False, help='paper name suffix, for paper title, also for output files name. default Empty')
+parser.add_argument('-r', '--translation', type=int, metavar='', default=1, required=False, help='1 to print article translation, 0 not print. default 1')
 parser.add_argument('-l', '--template', metavar='', default='template.docx', required=False, help='docx template file')
 
 
@@ -42,9 +44,11 @@ args = parser.parse_args()
 words_dict = wds.readWords(os.path.join('..', 'inputs', 'words_marked.txt'))
 #stce_pool = sts.read_sentence('../input/gaofen/sentence_struct')
 
-paper_name = args.name
 source_dir = args.directory
-paper_index = args.title
+paper_year = args.year
+paper_name = args.name or paper_year
+paper_index = args.suffix
+paper_is_trans = False if args.translation == 0 else True
 template_docx = args.template
 
 out_folder = source_dir
@@ -76,7 +80,7 @@ pbar.set_description('Generating paper ...')
 
 dw = DocxWrapper(template_docx)
 
-main_sub.paper_write_head_page(dw, paper_index)
+main_sub.paper_write_head_page(dw, paper_index, paper_year)
 
 main_sub.paper_write_closing(dw, paper.closing)
 
@@ -101,12 +105,12 @@ pbar.set_description('Generating solution(simplified) ...')
 
 dw = DocxWrapper(template_docx)
 
-dw.write_paragraph('2021年全国硕士研究生入学统一考试', bold=True, align='CENTER', space_after=10, font_size=18)
+dw.write_paragraph(paper_year + ' 年全国硕士研究生入学统一考试', bold=True, align='CENTER', space_after=10, font_size=18)
 dw.write_paragraph('英语（二）试卷' + paper_index + '解析', bold=True, align='CENTER', space_after=10, font_size=18)
 
 main_sub.paper_solution_simple_write_closing(dw, paper.closing, words_dict)
 
-main_sub.paper_solution_simple_write_partA(dw, paper.partA, words_dict)
+main_sub.paper_solution_simple_write_partA(dw, paper.partA, words_dict, paper_is_trans)
 
 main_sub.paper_solution_simple_write_partB(dw, paper.partB, words_dict)
 
